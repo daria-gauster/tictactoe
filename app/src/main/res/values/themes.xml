@@ -15,10 +15,11 @@
     </style>
 
     <style name="Theme.TicTacToe.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-<!--        <item name="windowActionBar">false</item>-->
-<!--        <item name="windowNoTitle">true</item>-->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/bg_dark</item>
+        <item name="colorPrimaryVariant">@color/bg_dark</item>
+        <item name="colorAccent">@color/primary_red</item>
         <item name="colorOnPrimary">@color/white</item>
     </style>
 
