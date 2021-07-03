@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <style name="Theme.TicTacToe.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/primary_red</item>
+        <item name="colorPrimaryVariant">@color/bg_dark</item>
+        <item name="colorAccent">@color/primary_red</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
 
 </resources>
