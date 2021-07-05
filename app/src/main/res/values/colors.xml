@@ -11,4 +11,5 @@
     <color name="light_grey">#A5A5A5</color>
     <color name="primary_red">#EF6950</color>
     <color name="dark_grey">#3D3D3D</color>
+    <color name="inputfield_grey">#E4E4E3</color>
 </resources>

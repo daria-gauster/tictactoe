@@ -13,4 +13,6 @@
     <string name="not_a_member_yet">Not a member yet?</string>
     <string name="register">Register</string>
     <string name="login">Login</string>
+    <string name="example_email_com">example@email.com</string>
+    <string name="password">password</string>
 </resources>
