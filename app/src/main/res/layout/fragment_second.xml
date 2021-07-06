@@ -6,6 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".SecondFragment">
 
+    <TextView
+        android:id="@+id/textview_hellothere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/hello_there"
+        android:textAlignment="viewStart"
+        android:textColor="@color/text_dark"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/etLoginEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/etLoginEmailAddress"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32999998"
+        app:layout_constraintVertical_chainStyle="packed" />
+
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="0dp"
@@ -35,7 +51,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_hellothere"
         app:layout_constraintVertical_chainStyle="packed" />
 
     <EditText

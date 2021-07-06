@@ -16,4 +16,5 @@
     <string name="example_email_com">example@email.com</string>
     <string name="password">password</string>
     <string name="need_help">Need help?</string>
+    <string name="hello_there">Hello There!</string>
 </resources>
