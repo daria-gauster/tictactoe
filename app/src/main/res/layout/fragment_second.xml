@@ -22,7 +22,7 @@
 
     <EditText
         android:id="@+id/etLoginEmailAddress"
-        android:layout_width="300dp"
+        android:layout_width="315dp"
         android:layout_height="45dp"
         android:layout_marginBottom="30dp"
         android:background="@drawable/input_field"
@@ -30,6 +30,7 @@
         android:fontFamily="@font/montserrat"
         android:hint="@string/example_email_com"
         android:inputType="textEmailAddress"
+        android:textColor="@color/dark_grey"
         app:layout_constraintBottom_toTopOf="@+id/etLoginPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -39,13 +40,15 @@
 
     <EditText
         android:id="@+id/etLoginPassword"
-        android:layout_width="300dp"
+        android:layout_width="315dp"
         android:layout_height="45dp"
+
         android:background="@drawable/input_field"
         android:ems="10"
         android:fontFamily="@font/montserrat"
         android:hint="@string/password"
         android:inputType="textPassword"
+        android:textColor="@color/dark_grey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -57,6 +60,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.6"
-        app:layout_constraintStart_toStartOf="parent"" />
+        app:layout_constraintGuide_percent="0.55"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_needhelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:letterSpacing="0.05"
+        android:text="@string/need_help"
+        android:textColor="@color/primary_red"
+        android:textSize="18dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnLogin"
+        app:layout_constraintEnd_toEndOf="@+id/etLoginPassword"
+        app:layout_constraintStart_toEndOf="@+id/btnLogin" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
